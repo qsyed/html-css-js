@@ -1,0 +1,54 @@
+button {
+    cursor: pointer;
+}
+
+.btn {
+    outline: none;
+    display: inline-block;
+    font-weight: 400;
+    color: $color-black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    @each $colorName,
+    $hex in $colors {
+        &-outline-#{$colorName} {
+            color: $hex;
+            border-color: $hex;
+
+            &:hover {
+                color: color-yiq($hex);
+                background-color: $hex;
+                border-color: $hex;
+            }
+        }
+    }
+
+    // &-outline {
+    //     &-danger {
+    //         color: $color-danger;
+    //         border-color: $color-danger;
+    //         &:hover {
+    //             color: $color-white;
+    //             background-color: $color-danger;
+    //             border-color: $color-danger;
+    //         }
+    //     }
+    //     &-primary {
+    //         color: $color-primary;
+    //         border-color: $color-primary;
+    //         &:hover {
+    //             color: $color-white;
+    //             background-color: $color-primary;
+    //             border-color: $color-primary;
+    //         }
+    //     }
+    // }
+}

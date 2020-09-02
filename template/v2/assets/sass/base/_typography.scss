@@ -1,0 +1,64 @@
+@import "../abstract/variables";
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+
+}
+
+
+
+.heading-primary{
+    Font-Family: 'Unica One', Cursive;
+    font-Size: 4.5rem;
+    max-width: $grid-width;
+    margin: 0 auto;
+  
+}
+
+.heading-secondary{
+    Font-Family: 'Unica One', Cursive;
+    Font-Size: 2.5rem;
+    color: #3B424A;
+
+
+    text-transform: uppercase;
+    backface-visibility: hidden;
+
+  
+}
+
+
+.heading-tertiary{
+    Font-Family: 'Unica One', Cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.heading-quaternary{
+    Font-Family: 'Unica One', Cursive;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.paragraph{
+    font-size: $default-font-size;
+    Font-Family: 'Crimson Text', Serif;
+    
+
+   
+}
+
+
+// Font-Family: 'Unica One', Cursive;
+// Font-Size: 52px;
+
+// Font-Size: 19px;

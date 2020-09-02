@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #212529;
+  line-height: 1.7;
+  padding: 3rem; }
+
+button {
+  cursor: pointer; }
+
+.btn {
+  outline: none;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff; }
+    .btn-outline-primary:hover {
+      color: #ffffff;
+      background-color: #007bff;
+      border-color: #007bff; }
+  .btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d; }
+    .btn-outline-secondary:hover {
+      color: #ffffff;
+      background-color: #6c757d;
+      border-color: #6c757d; }
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745; }
+    .btn-outline-success:hover {
+      color: #ffffff;
+      background-color: #28a745;
+      border-color: #28a745; }
+  .btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8; }
+    .btn-outline-info:hover {
+      color: #ffffff;
+      background-color: #17a2b8;
+      border-color: #17a2b8; }
+  .btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107; }
+    .btn-outline-warning:hover {
+      color: #212529;
+      background-color: #ffc107;
+      border-color: #ffc107; }
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545; }
+    .btn-outline-danger:hover {
+      color: #ffffff;
+      background-color: #dc3545;
+      border-color: #dc3545; }
+  .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa; }
+    .btn-outline-light:hover {
+      color: #212529;
+      background-color: #f8f9fa;
+      border-color: #f8f9fa; }
+  .btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40; }
+    .btn-outline-dark:hover {
+      color: #ffffff;
+      background-color: #343a40;
+      border-color: #343a40; }

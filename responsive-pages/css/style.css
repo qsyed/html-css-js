@@ -1,0 +1,57 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+
+
+}
+.header{
+
+    height: 100vh;
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+    background-position: top;
+    /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);   */
+    
+    position: relative;
+}
+
+
+
+
+.logo-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(225, 225, 225, 0.95);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 35% 85%, 20% 95%, 25% 85%, 0% 85%);
+    max-width: 30%;
+
+}
+
+
+.heading-primary-main {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 5vh;
+    color: black;
+    font-size: 4vh;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
